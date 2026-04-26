@@ -459,7 +459,7 @@
     <a href="pages/install.html" class="btn btn-outline">Read the docs</a>
   </div>
   <div class="hero-meta">
-    <span>⚡ Docker Compose deploy</span>
+    <span>⚡ One-command install</span>
     <span>🔒 No data leaves your server</span>
     <span>🌍 Multi-tenant</span>
     <span>📄 GNU GPL v3</span>
@@ -620,22 +620,22 @@
 <section class="section deploy" id="deploy">
   <div class="section-inner">
     <div class="section-label">Self-hosted</div>
-    <h2 class="section-title">Running in three commands</h2>
+    <h2 class="section-title">Up and running in minutes</h2>
     <p class="section-sub">No cloud dependency. No per-seat pricing. Your data stays on your server.</p>
 
     <div class="steps">
       <div class="step">
         <div class="step-num">1</div>
         <div>
-          <h3>Clone and configure</h3>
-          <p>Copy <code style="color:var(--amber);font-family:'JetBrains Mono',monospace">.env.example</code> to <code style="color:var(--amber);font-family:'JetBrains Mono',monospace">.env</code> and set your secret key, admin credentials, and domain.</p>
+          <h3>Clone the repository</h3>
+          <p>Download QuizBuilder with Git — or grab the ZIP from GitHub. You'll need <strong>Docker</strong> and <strong>Python 3</strong> installed first.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">2</div>
         <div>
-          <h3>Start with Docker Compose</h3>
-          <p>One command brings up the database, API, and web frontend. Migrations run automatically on startup.</p>
+          <h3>Run the installer</h3>
+          <p>One command sets up passwords, generates security keys, and starts the server. Just answer two prompts.</p>
         </div>
       </div>
       <div class="step">
@@ -652,15 +652,14 @@
 git clone https://github.com/mnavas/quizbuilder
 cd quizbuilder
 
-<span class="cm"># Configure environment</span>
-cp .env.example .env
-<span class="cm"># Edit .env — set DB_PASSWORD, SECRET_KEY, ADMIN_EMAIL, ADMIN_PASSWORD</span>
-
-<span class="cm"># Start all services</span>
-docker compose up -d
+<span class="cm"># Install, configure, and start — one command does it all</span>
+<span class="cm"># Mac / Linux:</span>
+<span class="kw">./quizbuilder</span> install
+<span class="cm"># Windows:</span>
+<span class="kw">quizbuilder</span> install
 
 <span class="cm"># Open the admin panel</span>
-<span class="kw">open</span> <span class="st">http://localhost:3000</span></pre>
+<span class="st">http://localhost:3000</span></pre>
     </div>
   </div>
 </section>
