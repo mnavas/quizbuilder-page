@@ -1,0 +1,1112 @@
+{
+  "quizbuilder_version": "1.0",
+  "test": {
+    "title": "Super Mario Trivia",
+    "description": "Test your Mario knowledge across three difficulty rounds — from basics to hardcore fan territory!",
+    "mode": "async",
+    "access": "open",
+    "time_limit_minutes": null,
+    "allow_multiple_attempts": false,
+    "max_attempts": null,
+    "randomize_questions": false,
+    "randomize_options": true,
+    "show_score": "at_end",
+    "show_correct_answers": "at_end",
+    "passing_score_pct": null,
+    "multiple_select_scoring": "all_or_nothing",
+    "draw_count": null,
+    "blocks": [
+      {
+        "title": "Part 1 — Multiple Choice",
+        "order": 0,
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "What was Mario's original name in his first-ever appearance?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Mr. Video",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Jumpman",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Red Hat",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Luigi",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "B",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Shigeru Miyamoto also considered calling him 'Mr. Video'. Jumpman was Mario's original name in the 1981 Donkey Kong arcade game.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Which of these characters is NOT a Koopaling?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Iggy",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Lemmy",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Waluigi",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ludwig",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "C",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Waluigi is Wario's partner, not one of Bowser's Koopalings (children). The Koopalings are Larry, Morton, Wendy, Iggy, Roy, Lemmy, and Ludwig.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "In Super Mario 64, how many Power Stars are there in total?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "100",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "150",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "120",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "80",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "C",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Super Mario 64 has 120 Power Stars in total — 15 per each of the 15 courses, plus bonus stars.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "What is the name of Mario's sentient hat in Super Mario Odyssey?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Tiara",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Cappy",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Bonnet",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Fedora",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "B",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Cappy is Mario's hat companion in Super Mario Odyssey. Tiara is Cappy's sister who was captured by Bowser.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "In which game did Yoshi make his very first appearance?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Super Mario Bros. 3",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Super Mario World",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Yoshi's Island",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Super Mario 64",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "B",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Yoshi first appeared in Super Mario World (SNES, 1990), where Mario can ride him throughout the Dinosaur Land.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Part 2 — True or False",
+        "order": 1,
+        "context_json": null,
+        "questions": [
+          {
+            "type": "true_false",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Mario was originally a carpenter, not a plumber.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": null,
+            "correct_answer": {
+              "value": "true"
+            },
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "In Donkey Kong (1981), Mario (then Jumpman) worked on a construction site, making him a carpenter. He became a plumber in Mario Bros. (1983).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "true_false",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Princess Peach was the damsel in distress in the original 1981 Donkey Kong arcade game.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": null,
+            "correct_answer": {
+              "value": "false"
+            },
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The original damsel in Donkey Kong was Pauline (called 'Lady' in early materials). Princess Peach didn't appear until Donkey Kong Jr. (1982) and Super Mario Bros. (1985).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "true_false",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Wario is Mario's biological cousin.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": null,
+            "correct_answer": {
+              "value": "false"
+            },
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Nintendo has never officially confirmed any biological relation between Mario and Wario. They are rivals, and the 'W' on Wario's hat is simply Mario's 'M' flipped upside down.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "true_false",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Luigi's first appearance was in the game Mario Bros. (1983).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": null,
+            "correct_answer": {
+              "value": "true"
+            },
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Luigi debuted as the palette-swapped second player in Mario Bros. (1983), the arcade game. He shared the same sprite as Mario but in green.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "true_false",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Super Mushroom was inspired by the book Alice in Wonderland.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": null,
+            "correct_answer": {
+              "value": "true"
+            },
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Shigeru Miyamoto has cited the connection between mushrooms and size changes in Alice in Wonderland as an inspiration for the Super Mushroom power-up.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 1,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Part 3 — Hardcore Fan Round",
+        "order": 2,
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "What is the name of the kingdom where Super Mario Land (Game Boy) takes place?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Mushroom Kingdom",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Sarasaland",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Beanbean Kingdom",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Isle Delfino",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "B",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Sarasaland is the exotic kingdom ruled by Princess Daisy. It is divided into four kingdoms: Birabuto, Muda, Easton, and Chai.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 2,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Who voiced Mario from 1991 until his retirement in 2023?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Chris Pratt",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Charles Martinet",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Lou Albano",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Danny DeVito",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "B",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Charles Martinet voiced Mario from 1991 until September 2023, making him one of gaming's most iconic voice actors. He retired and was named Nintendo's 'Mario Ambassador'.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 2,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "In Super Mario Bros. 3, what does the Tanooki Suit allow Mario to do that the Super Leaf does not?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "A",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Fly higher",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "B",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Swim faster",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "C",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Turn into a stone statue",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "D",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Throw hammers",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": "C",
+            "explanation_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Tanooki Suit is an upgrade over the Super Leaf. Both allow flying and tail attacks, but only the Tanooki Suit lets Mario transform into a stone statue to dodge enemies.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "media_ref": null,
+            "points": 2,
+            "tags": [
+              "mario",
+              "trivia"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Super Mario trivia across three difficulty rounds — multiple choice, true/false, and a hardcore fan round. 13 questions total with explanations. Points scored at end, options randomised."
+}
