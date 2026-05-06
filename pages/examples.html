@@ -236,6 +236,56 @@
     .method-badge.method-import { background: #DCFCE7; color: #166534; }
     .method-badge.method-script { background: #E0E7FF; color: #3730A3; }
     .method-badge.method-ai    { background: #FEF3C7; color: #92400E; }
+    .method-badge.method-live  { background: #1C1C2E; color: #F5A623; }
+
+    /* ── LIVE GAME FLOW ── */
+    .live-flow {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.75rem; margin-top: 1.5rem;
+    }
+    .live-flow-card {
+      background: var(--gray-900); border-radius: var(--radius);
+      padding: 1.25rem 1rem; text-align: center; position: relative;
+    }
+    .live-flow-card .lf-icon { font-size: 1.75rem; margin-bottom: 0.5rem; }
+    .live-flow-card .lf-label {
+      font-size: 0.75rem; font-weight: 700; color: var(--amber);
+      text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.3rem;
+    }
+    .live-flow-card .lf-desc {
+      font-size: 0.78rem; color: #9CA3AF; line-height: 1.5;
+    }
+    .live-flow-arrow {
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gray-400); font-size: 1.25rem; padding-top: 1.5rem;
+    }
+    @media (max-width: 640px) { .live-flow-arrow { display: none; } }
+
+    .live-role-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;
+    }
+    .live-role-card {
+      border-radius: var(--radius); padding: 1.25rem;
+    }
+    .live-role-card.host { background: #1C1C2E; border: 1px solid #F5A62340; }
+    .live-role-card.player { background: #0F2027; border: 1px solid #22C55E40; }
+    .live-role-card h4 {
+      font-size: 0.85rem; font-weight: 700; margin-bottom: 0.6rem;
+    }
+    .live-role-card.host h4 { color: var(--amber); }
+    .live-role-card.player h4 { color: #4ADE80; }
+    .live-role-card ul {
+      list-style: none; padding: 0;
+    }
+    .live-role-card ul li {
+      font-size: 0.8rem; color: #9CA3AF; line-height: 1.6; padding: 0.2rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .live-role-card ul li:last-child { border-bottom: none; }
+    .live-role-card ul li::before { margin-right: 0.4rem; }
+    .live-role-card.host ul li::before { content: '▶'; color: var(--amber); font-size: 0.6rem; }
+    .live-role-card.player ul li::before { content: '▶'; color: #4ADE80; font-size: 0.6rem; }
+    @media (max-width: 540px) { .live-role-grid { grid-template-columns: 1fr; } }
 
     /* ── COPY BLOCK ── */
     .copy-wrap { position: relative; margin-top: 1.25rem; }
@@ -310,7 +360,7 @@
 <div class="page-header">
   <div class="badge">🐝 Practical examples</div>
   <h1>Building your first tests</h1>
-  <p>Four ways to get content into QuizBuilder — from a simple CSV spreadsheet to AI-assisted bulk creation.</p>
+  <p>Five ways to get content into QuizBuilder — from a simple CSV spreadsheet to AI-assisted bulk creation — plus how to run a live trivia game.</p>
 </div>
 
 <!-- ── TOC BAR ── -->
@@ -321,6 +371,7 @@
     <li><a href="#script">3 · Python script</a></li>
     <li><a href="#ai">4 · AI-assisted</a></li>
     <li><a href="#agent-context">5 · Agent context</a></li>
+    <li><a href="#live-game">6 · Live game</a></li>
   </ul>
 </div>
 
@@ -1056,6 +1107,172 @@ NOW DESCRIBE THE TEST YOU WANT
       <span>
         The last line <strong>"NOW DESCRIBE THE TEST YOU WANT"</strong> is a cue — after pasting, just type your request
         in the same message or the next one. Example: <em>"Create a 20-word Grade 5 spelling bee. One short_text question per block titled Word 1, Word 2, etc. No time limit."</em>
+      </span>
+    </div>
+
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ══════════════════════════════════════════════
+       EXAMPLE 6 — LIVE GAME
+  ══════════════════════════════════════════════ -->
+  <section class="example-section" id="live-game">
+    <div class="example-tag">Example 6</div>
+    <div class="method-badge method-live">🎮 Live game</div>
+    <h2>Run a live trivia game with the whole class</h2>
+    <p>
+      QuizBuilder Live turns any multiple-choice or true/false test into a real-time
+      trivia game. Every player answers simultaneously — points are awarded for correctness
+      <em>and</em> speed. The host controls the pace question by question, with a
+      leaderboard shown after each one and a podium at the end.
+    </p>
+
+    <!-- Game flow visual -->
+    <div class="live-flow">
+      <div class="live-flow-card">
+        <div class="lf-icon">📋</div>
+        <div class="lf-label">Lobby</div>
+        <div class="lf-desc">Players join with PIN or QR. Host sees names appear live.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">❓</div>
+        <div class="lf-label">Question</div>
+        <div class="lf-desc">Host reveals one question. Countdown timer runs. Players tap an answer.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏅</div>
+        <div class="lf-label">Results</div>
+        <div class="lf-desc">Correct answer revealed. Per-question leaderboard shown to all.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏆</div>
+        <div class="lf-label">Podium</div>
+        <div class="lf-desc">Final cumulative leaderboard — top scores from all rounds.</div>
+      </div>
+    </div>
+
+    <div class="steps" style="margin-top:2rem;">
+
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Prepare your test</h3>
+          <p>
+            The live game only uses <strong>multiple_choice</strong> and <strong>true_false</strong>
+            questions — questions of other types are skipped automatically. Any published or
+            unpublished test works; the live game is separate from the regular async session flow.
+          </p>
+          <p>
+            No test yet? Import the ready-made example bundle:
+            <strong>Tests → Import → <code>super-mario-trivia.json</code></strong>.
+            Download it from the <a href="app.html" style="color:var(--amber-dark);font-weight:600;">App page</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Launch the game</h3>
+          <p>
+            Go to <strong>Tests</strong>, find your test, open the <strong>⋮ Actions</strong> menu,
+            and click <strong>🎮 Launch Live Game</strong>.
+          </p>
+          <p>
+            A host control page opens in a new tab with a <strong>6-digit PIN</strong> and a
+            QR code. The game is paused in the lobby until you click Start.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Players join</h3>
+          <p>
+            Show the host screen on a projector or shared display.
+            Players open <strong>/live-join</strong> on their phones — or scan the QR code
+            to skip PIN entry entirely — and choose a nickname. Their name appears on your
+            lobby screen as soon as they join.
+          </p>
+          <div class="callout callout-info" style="margin-top:0.75rem;">
+            <span class="callout-icon">💡</span>
+            <span>Players need no account and no app install — just a browser.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Run the game</h3>
+          <p>
+            Click <strong>Start Game</strong> when everyone is in. The first question appears
+            on the host screen and all player screens simultaneously. The timer counts down
+            (20 seconds by default).
+          </p>
+          <p>
+            Players tap their answer — faster correct answers earn more points. Points are
+            calculated server-side, so connection speed doesn't affect fairness.
+          </p>
+          <p>
+            Click <strong>Close Question</strong> to reveal the answer and per-question
+            leaderboard, then <strong>Next Question</strong> to continue.
+            The question auto-closes when the timer hits zero.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h3>Final results</h3>
+          <p>
+            After the last question, click <strong>Show Final Results</strong>. A podium
+            screen with the top three players and full cumulative leaderboard is shown to
+            the host and all players.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Host vs Player split -->
+    <div class="live-role-grid">
+      <div class="live-role-card host">
+        <h4>🖥️ Host screen</h4>
+        <ul>
+          <li>PIN + QR code in lobby</li>
+          <li>Live player list as they join</li>
+          <li>Question displayed with countdown ring</li>
+          <li>Answered count (e.g. "18 / 24")</li>
+          <li>Correct answer highlighted after close</li>
+          <li>Per-question top 10 leaderboard</li>
+          <li>Podium + full final leaderboard</li>
+        </ul>
+      </div>
+      <div class="live-role-card player">
+        <h4>📱 Player screen</h4>
+        <ul>
+          <li>Nickname + waiting animation in lobby</li>
+          <li>Question + colour-coded answer buttons</li>
+          <li>Countdown bar at the top</li>
+          <li>Tick / cross + points earned after close</li>
+          <li>Current rank after each question</li>
+          <li>Final rank + total score at the end</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scoring callout -->
+    <div class="callout" style="margin-top:1.5rem;">
+      <span class="callout-icon">⚡</span>
+      <span>
+        <strong>Speed scoring:</strong> a correct answer earns between 50 % and 100 % of the
+        question's base points (× 1000), scaled by how quickly the player answered.
+        The last split-second before the timer expires still earns half points — wrong
+        answers always score zero.
       </span>
     </div>
 
