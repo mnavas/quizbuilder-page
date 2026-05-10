@@ -719,10 +719,9 @@ python seed_audio.py \
             <div class="code-wrap" style="margin-top:0.75rem;"><pre>{
   <span class="ky">"title"</span>: <span class="st">"string"</span>,
   <span class="ky">"description"</span>: <span class="st">"string | null"</span>,
-  <span class="ky">"question_count_mode"</span>: <span class="st">"all" | "draw"</span>,
-  <span class="ky">"draw_count"</span>: <span class="st">"integer | null"</span>,
+  <span class="ky">"draw_count"</span>: <span class="vl">null</span>,
   <span class="ky">"time_limit_minutes"</span>: <span class="st">"integer | null"</span>,
-  <span class="ky">"show_correct_answers"</span>: <span class="vl">true | false</span>,
+  <span class="ky">"show_correct_answers"</span>: <span class="st">"at_end" | "never" | "per_question"</span>,
   <span class="ky">"blocks"</span>: [
     {
       <span class="ky">"title"</span>: <span class="st">"string"</span>,
@@ -734,13 +733,12 @@ python seed_audio.py \
           <span class="ky">"points"</span>: <span class="nu">integer</span>,
           <span class="ky">"review_required"</span>: <span class="vl">true | false</span>,
           <span class="ky">"prompt_json"</span>: {
-            <span class="cm">// Tiptap doc node — plain paragraph is fine</span>
             <span class="ky">"type"</span>: <span class="st">"doc"</span>,
             <span class="ky">"content"</span>: [{ <span class="ky">"type"</span>: <span class="st">"paragraph"</span>,
               <span class="ky">"content"</span>: [{ <span class="ky">"type"</span>: <span class="st">"text"</span>, <span class="ky">"text"</span>: <span class="st">"question text here"</span> }] }]
           },
-          <span class="ky">"correct_answer"</span>: <span class="st">"string | null"</span>,
-          <span class="ky">"options_json"</span>: <span class="vl">null</span>
+          <span class="ky">"correct_answer"</span>: <span class="st">"string | array | null"</span>,
+          <span class="ky">"options_json"</span>: <span class="st">["Option A", "Option B"] | null</span>
         }
       ]
     }
@@ -750,9 +748,12 @@ python seed_audio.py \
               <span class="prompt-highlight">Rules:</span>
             </p>
             <ul>
+              <li><strong>Questions must be inside blocks.</strong> Never use a top-level <code>"questions"</code> array.</li>
+              <li>The field is <code>"options_json"</code> — never <code>"options"</code>.</li>
+              <li><code>show_correct_answers</code> must be the string <code>"at_end"</code>, <code>"never"</code>, or <code>"per_question"</code> — not <code>true</code>/<code>false</code>.</li>
               <li>For <code>multiple_choice</code>: set <code>options_json</code> to <code>["Option A", "Option B", ...]</code> and <code>correct_answer</code> to the exact text of the correct option.</li>
               <li>For <code>multiple_select</code>: set <code>options_json</code> to a list and <code>correct_answer</code> to a JSON array, e.g. <code>["A", "C"]</code>.</li>
-              <li>For <code>true_false</code>: set <code>correct_answer</code> to <code>"true"</code> or <code>"false"</code>.</li>
+              <li>For <code>true_false</code>: set <code>correct_answer</code> to the string <code>"true"</code> or <code>"false"</code> — never a boolean.</li>
               <li>For <code>short_text</code> with auto-scoring: set <code>review_required: false</code> and <code>correct_answer</code> to the expected string.</li>
               <li>For <code>long_text</code> or <code>file_upload</code>: set <code>review_required: true</code> and <code>correct_answer: null</code>.</li>
               <li>Always set <code>context_json: null</code> — media must be added manually after import.</li>
@@ -917,22 +918,26 @@ TOP-LEVEL STRUCTURE
 {
   "title": "string — test name",
   "description": "string or null",
-  "question_count_mode": "all",          // always "all" unless told to use random draw
-  "draw_count": null,                     // integer only when question_count_mode is "draw"
-  "time_limit_minutes": null,             // integer (e.g. 30) or null for untimed
-  "show_correct_answers": true,           // true = show answers after submission
+  "time_limit_minutes": null,
+  "draw_count": null,
+  "show_correct_answers": "at_end",
   "blocks": [ ...array of blocks... ]
 }
 
+show_correct_answers must be one of these strings (not a boolean):
+  "at_end"       → taker sees answers after submitting
+  "never"        → answers are never shown
+  "per_question" → answer revealed after each question
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-BLOCK STRUCTURE
+BLOCK STRUCTURE  ← REQUIRED — questions MUST be inside blocks
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Each block is a group of questions (usually one question per block).
-Always set context_json to null — audio is added manually after import.
+All questions must live inside blocks. Never put questions at the top level.
+Usually one question per block.
 
 {
-  "title": "string — block label, e.g. 'Word 1' or 'Question 1'",
+  "title": "string — block label, e.g. 'Question 1'",
   "context_json": null,
   "questions": [ ...array of questions... ]
 }
@@ -944,18 +949,18 @@ QUESTION STRUCTURE — COMMON FIELDS
 Every question has these fields:
 
 {
-  "type": "...",              // see types below
-  "points": 1,                // integer, default 1
-  "review_required": false,   // true only for long_text and file_upload
-  "prompt_json": {            // the question text — always this exact wrapper
+  "type": "...",
+  "points": 1,
+  "review_required": false,
+  "prompt_json": {
     "type": "doc",
     "content": [{
       "type": "paragraph",
       "content": [{ "type": "text", "text": "YOUR QUESTION TEXT HERE" }]
     }]
   },
-  "correct_answer": "...",   // see encoding per type below
-  "options_json": null        // see encoding per type below
+  "correct_answer": "...",
+  "options_json": null
 }
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -966,7 +971,9 @@ QUESTION TYPES — FULL REFERENCE
    "type": "multiple_choice"
    "review_required": false
    "options_json": ["Option A", "Option B", "Option C", "Option D"]
-   "correct_answer": "Option B"   ← must be the exact text of the correct option
+   "correct_answer": "Option B"   ← must be the EXACT text of the correct option
+
+   IMPORTANT: Use the field name "options_json" (not "options").
 
    Example:
    {
@@ -984,6 +991,8 @@ QUESTION TYPES — FULL REFERENCE
    "options_json": ["A", "B", "C", "D"]
    "correct_answer": ["A", "C"]   ← a JSON array listing the correct option texts
 
+   IMPORTANT: Use the field name "options_json" (not "options").
+
    Example:
    {
      "type": "multiple_select", "points": 2, "review_required": false,
@@ -998,7 +1007,7 @@ QUESTION TYPES — FULL REFERENCE
    "type": "true_false"
    "review_required": false
    "options_json": null
-   "correct_answer": "true"   ← must be the string "true" or "false"
+   "correct_answer": "true"   ← the STRING "true" or "false" — never a boolean
 
    Example:
    {
@@ -1046,15 +1055,17 @@ RULES — READ CAREFULLY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 - Output ONLY the JSON object. No markdown, no comments inside the JSON.
+- Questions MUST be inside blocks. Never use a top-level "questions" array.
+- The field is "options_json" — never "options".
 - Every question MUST have prompt_json using the doc/paragraph/text wrapper shown above.
 - Never omit any field — use null for optional fields you don't need.
+- show_correct_answers must be the string "at_end", "never", or "per_question" — not true/false.
 - For multiple_choice: correct_answer must be the exact string from options_json.
 - For multiple_select: correct_answer must be a JSON array: ["A", "B"]
-- For true_false: correct_answer is always the string "true" or "false", never a boolean.
+- For true_false: correct_answer is the string "true" or "false", never a boolean.
 - For short_text auto-scoring: review_required must be false and correct_answer must be a string.
 - For long_text: review_required must be true and correct_answer must be null.
 - context_json is always null — never generate media references.
-- Validate that every correct_answer for multiple_choice exactly matches one entry in options_json.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 COMPLETE MINIMAL EXAMPLE (2-block test)
@@ -1063,10 +1074,9 @@ COMPLETE MINIMAL EXAMPLE (2-block test)
 {
   "title": "Sample Quiz",
   "description": null,
-  "question_count_mode": "all",
   "draw_count": null,
   "time_limit_minutes": null,
-  "show_correct_answers": true,
+  "show_correct_answers": "at_end",
   "blocks": [
     {
       "title": "Question 1",
