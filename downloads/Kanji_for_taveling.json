@@ -1,0 +1,5328 @@
+{
+  "quizbuilder_version": "1.0",
+  "test": {
+    "title": "Kanji for Traveling in Japan",
+    "description": "Learn essential Kanji signs you'll encounter traveling in Japan — from train stations and restaurants to navigation and emergencies.",
+    "time_limit_minutes": null,
+    "draw_count": null,
+    "show_correct_answers": "at_end",
+    "randomize_options": true,
+    "blocks": [
+      {
+        "title": "Question 1",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are looking for a restroom. Which Kanji indicates the Men's room?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "女 (Onna)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "男 (Otoko)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "入 (Iri)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "出 (De)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "restroom",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates the Women's restroom?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "女 (Onna)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "男 (Otoko)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "右 (Migi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "左 (Hidari)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "restroom",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are inside a massive train station and need to find the EXIT. Which sign should you follow?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "出口 (Deguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "入口 (Iriguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "改札 (Kaisatsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "窓口 (Madoguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "train-station",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji represents the ENTRANCE to a building or station?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "出口 (Deguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "入口 (Iriguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "非常口 (Hijoguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "駅 (Eki)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What does this Kanji mean in a travel context: '駅'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Park"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Hotel"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Train Station"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Restaurant"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "c"
+            },
+            "tags": [
+              "travel",
+              "train-station"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You see a sign '営業中' on a restaurant door. What does it mean?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Closed for the day"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Open for business"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Sold out"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Preparing/Staff only"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "restaurant"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A shop has a sign that says '準備中'. Can you go in?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Yes, it is open"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "No, they are currently preparing/closed"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Yes, but only for take-out"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "No, it is permanently out of business"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "restaurant"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which sign indicates that smoking is PROHIBITED (No Smoking)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "喫煙 (Kitsuen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "禁煙 (Kinen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "非常 (Hijo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "案内 (Annai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "rules"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You want to pay the bill at a restaurant. Which sign indicates the Cashier/Check area?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "注文 (Chumon)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "会計 (Kaikei)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "案内 (Annai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "切符 (Kippu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "restaurant"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji means 'Park' (e.g., Ueno Park)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "公園 (Koen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "庭 (Niwa)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "山 (Yama)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "川 (Kawa)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "navigation",
+              "park"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 11",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "On a door, you see the Kanji '押'. What should you do?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Pull"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Push"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Slide"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Do not touch"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 12",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "On a door, you see the Kanji '引'. What should you do?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Push"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Pull"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Wait"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Knock"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 13",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates the Bullet Train (Shinkansen)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "特急 (Tokkyu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "普通 (Futsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "新幹線 (Shinkansen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "地下鉄 (Chikatetsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "c"
+            },
+            "tags": [
+              "travel",
+              "train-station"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 14",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are looking for an Information Desk. What Kanji should you look for?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "禁止 (Kinshi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "危ない (Abunai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "案内 (Annai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "無料 (Muryo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "c"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 15",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "If you see '危ない' on a sign, what does it mean?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Safe"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Delicious"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Dangerous"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Entrance"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "c"
+            },
+            "tags": [
+              "travel",
+              "rules"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 16",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji means 'Free of Charge'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "有料 (Yuryo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "無料 (Muryo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "半額 (Hangaku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "割引 (Waribiki)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "money"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 17",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates an EMERGENCY?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "普通 (Futsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "非常 (Hijo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "受付 (Uketsuke)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "交番 (Koban)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 18",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a platform. Which Kanji indicates a LOCAL train (stops at every station)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "普通 (Futsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "特急 (Tokkyu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "快速 (Kaisoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "急行 (Kyuko)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "train-station"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 19",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji represents the 'Right' direction?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "左 (Hidari)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "右 (Migi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "上 (Ue)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "下 (Shita)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 20",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji represents the 'Left' direction?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "右 (Migi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "左 (Hidari)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "北 (Kita)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "南 (Minami)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 21",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a restaurant with dietary restrictions. Which Kanji means 'MEAT'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "魚 (Sakana)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "肉 (Niku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "卵 (Tamago)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "米 (Kome)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 22",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are looking for sushi or seafood. Which Kanji means 'FISH'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "肉 (Niku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "魚 (Sakana)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "野菜 (Yasai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "湯 (Yu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 23",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "On a Shinkansen (Bullet Train), you have a ticket for a RESERVED SEAT. Which sign should you look for?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "自由席 (Jiyuseki - Non-reserved)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "指定席 (Shiteiseki - Reserved)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "優先席 (Yusenseki - Priority)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "禁煙席 (Kinenseki - Non-smoking)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "train-station",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 24",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You have a JR Pass and want a 'Non-Reserved' seat. Which Kanji should you look for on the platform?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "指定席 (Shiteiseki)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "自由席 (Jiyuseki)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "出口 (Deguchi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "交番 (Koban)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "train-station"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 25",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You ran out of cash. Which Kanji indicates a 'BANK'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "病院 (Byoin)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "銀行 (Ginko)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "薬局 (Yakkyoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "理髪店 (Rihatsuten)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "money"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 26",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You need to change your Dollars/Euros to Yen. Look for the sign for 'CURRENCY EXCHANGE':"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "両替 (Ryogae)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "円 (En)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "切符 (Kippu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "精算 (Seisan)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "money",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 27",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are feeling unwell and need a 'PHARMACY'. Which Kanji should you look for?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "駅 (Eki)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "薬局 (Yakkyoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "銭湯 (Sento)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "売店 (Baiten)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "health"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 28",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You lost your wallet and need to find the small 'POLICE BOX' found in neighborhoods:"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "公園 (Koen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "交番 (Koban)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "役所 (Yakusho)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "学校 (Gakko)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "safety"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 29",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In an Onsen (Hot Spring) or a shower, which Kanji indicates 'HOT WATER'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "水 (Mizu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "湯 (Yu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "氷 (Kori)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "風 (Kaze)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 30",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a vending machine and want a 'COLD' drink. Look for the blue label saying:"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "あたたかい (Warm)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "つめたい (Cold)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "辛い (Spicy)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "甘い (Sweet)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 31",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates the 'Subway' (Underground train)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "地下鉄 (Chikatetsu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "新幹線 (Shinkansen)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "人力車 (Jinrikisha)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "自転車 (Jitensha)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "train-station"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 32",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are looking for 'STAIRS'. Which sign do you follow?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "電光掲示板 (Notice board)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "階段 (Kaidan)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "信号 (Signal)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "洗面所 (Washroom)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 33",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are checking museum hours. Which Kanji means 'MONDAY' (often a closure day)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "月曜日 (Getsuyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "日曜日 (Nichiyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "金曜日 (Kinyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "火曜日 (Kayobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "calendar",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 34",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates 'SUNDAY'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "土曜日 (Doyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "日曜日 (Nichiyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "水曜日 (Suiyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "木曜日 (Mokuyobi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "calendar"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 35",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are looking for the '7th Floor' in a department store. What Kanji represents 'FLOOR'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "円 (En)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "階 (Kai / Gai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "分 (Fun)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "時 (Ji)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 36",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You see a button in an elevator: 'B1'. What does '地下' (Chika) mean?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Rooftop"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Basement / Underground"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Lobby"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Parking"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 37",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a shop. Which Kanji represents the number 'ONE'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "一"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "二"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "三"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "十"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "a"
+            },
+            "tags": [
+              "travel",
+              "numbers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 38",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji represents the number 'TWO'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "一"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "二"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "三"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "八"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "numbers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 39",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji represents the number 'THREE'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "二"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "三"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "五"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "十"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "numbers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 40",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You see a sign for '10% OFF'. Which Kanji represents 'TEN'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "一"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "十"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "百"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "千"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "numbers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 41",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "At a convenience store (Conbini), which Kanji indicates 'ALCOHOL' (Beer/Sake)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "茶 (Cha)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "酒 (Sake)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "水 (Mizu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "塩 (Shio)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 42",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are buying a snack and need to know if it's 'SPICY'. Look for this Kanji:"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "甘 (Amai - Sweet)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "辛 (Karai - Spicy)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "塩 (Shio - Salty)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "苦 (Nigai - Bitter)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 43",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In a hospital or station, which Kanji means 'RECEPTION' or 'FRONT DESK'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "案内 (Annai)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "受付 (Uketsuke)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "会計 (Kaikei)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "精算 (Seisan)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 44",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a ticket machine. Which Kanji means 'ADULT'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "小人 (Kodomo - Child)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "大人 (Otona - Adult)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "学生 (Gakusei - Student)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "老人 (Rojin - Senior)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "money"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 45",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji indicates 'CHILD' (for tickets)?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "大人 (Otona)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "小人 (Kodomo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "友 (Tomo)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "私 (Watashi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "money"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 46",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You see a sign '立入禁止'. What does it mean?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Welcome"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Do Not Enter"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Exit Only"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Photography allowed"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "rules",
+              "difficult"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 47",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji means 'TODAY'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "昨日 (Kinou)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "今日 (Kyou)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "明日 (Ashita)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "来週 (Raishu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "calendar"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 48",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In a restaurant, what is the Kanji for 'WATER'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "湯 (Yu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "水 (Mizu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "氷 (Kori)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "火 (Hi)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "food"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 49",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You see a green sign with a person running. What is '非常口'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Public Toilet"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Emergency Exit"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Train Entrance"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Police Station"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "safety"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 50",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which Kanji means 'JAPAN'?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "中国 (Chugoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "日本 (Nihon)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "韓国 (Kankoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "米国 (Beikoku)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "basics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 51",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You are at a crossing. '赤' (Aka) means which color?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Green"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Red"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Blue"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Yellow"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 52",
+        "context_json": null,
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "points": 1,
+            "review_required": false,
+            "prompt_json": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Which color is '青' (Ao), used for 'Go' in Japanese traffic lights?"
+                    }
+                  ]
+                }
+              ]
+            },
+            "options_json": [
+              {
+                "id": "a",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Red"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "b",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Blue / Green"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "c",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Black"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d",
+                "content_json": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "White"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "correct_answer": {
+              "value": "b"
+            },
+            "tags": [
+              "travel",
+              "navigation"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
