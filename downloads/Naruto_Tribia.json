@@ -100,9 +100,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "jutsu",
@@ -203,9 +201,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "character",
@@ -306,9 +302,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "tailed beast",
@@ -409,9 +403,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sasuke",
               "clan",
@@ -512,9 +504,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "team 7",
               "sensei",
@@ -615,9 +605,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sakura",
               "skill",
@@ -718,9 +706,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "village",
@@ -821,9 +807,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "sasuke",
@@ -925,9 +909,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "food",
@@ -1028,9 +1010,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "kakashi",
               "nickname",
@@ -1131,9 +1111,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "gaara",
               "tailed beast",
@@ -1234,9 +1212,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sannin",
               "jiraiya",
@@ -1337,9 +1313,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "rock lee",
               "jutsu",
@@ -1440,9 +1414,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "akatsuki",
               "founder",
@@ -1543,9 +1515,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "itachi",
               "sharingan",
@@ -1646,9 +1616,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "hokage",
               "tsunade",
@@ -1749,9 +1717,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "akatsuki",
               "goal",
@@ -1852,9 +1818,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sakura",
               "medical ninjutsu",
@@ -1955,9 +1919,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sasuke",
               "chidori",
@@ -2058,9 +2020,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "catchphrase",
@@ -2161,9 +2121,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "jiraiya",
               "summoning",
@@ -2264,9 +2222,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "uchiha",
               "rinnegan",
@@ -2367,9 +2323,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "villain",
               "shippuden",
@@ -2470,9 +2424,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "kazekage",
               "chunin exams",
@@ -2573,9 +2525,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "neji",
               "byakugan",
@@ -2676,9 +2626,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "akatsuki",
               "deidara",
@@ -2779,9 +2727,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "mother",
@@ -2882,9 +2828,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "taijutsu",
               "might guy",
@@ -2985,9 +2929,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "shikamaru",
               "jutsu",
@@ -3088,9 +3030,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "orochimaru",
               "kabuto",
@@ -3191,9 +3131,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kisame",
               "sword",
@@ -3294,9 +3232,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "minato",
               "hokage",
@@ -3397,9 +3333,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "gyuki",
               "tailed beast",
@@ -3500,9 +3434,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "sage mode",
@@ -3603,9 +3535,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "konan",
               "jutsu",
@@ -3706,9 +3636,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "uchiha",
               "tsukuyomi",
@@ -3809,9 +3737,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "hinata",
               "jutsu",
@@ -3912,9 +3838,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "pain",
               "antagonist",
@@ -4015,9 +3939,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "konohamaru",
               "summoning",
@@ -4118,9 +4040,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sasuke",
               "curse mark",
@@ -4221,9 +4141,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "akatsuki",
               "deidara",
@@ -4324,9 +4242,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "might guy",
               "father",
@@ -4427,9 +4343,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "puppetry",
               "jutsu",
@@ -4530,9 +4444,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "pain",
               "jutsu",
@@ -4633,9 +4545,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "team kurenai",
               "character",
@@ -4736,9 +4646,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "obito",
               "sharingan",
@@ -4839,9 +4747,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "neji",
               "byakugan",
@@ -4942,9 +4848,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "orochimaru",
               "goal",
@@ -5045,9 +4949,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "killer b",
               "tailed beast",
@@ -5148,9 +5050,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "hokage",
               "wood style",
@@ -5251,9 +5151,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sai",
               "jutsu",
@@ -5354,9 +5252,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "nagato",
               "jiraiya",
@@ -5457,9 +5353,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sharingan",
               "ability",
@@ -5560,9 +5454,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "tenten",
               "weapon",
@@ -5663,9 +5555,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "naruto",
               "final battle",
@@ -5766,9 +5656,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "akatsuki",
               "leader",
@@ -5869,9 +5757,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kakashi",
               "summoning",
@@ -5972,9 +5858,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "shino",
               "jutsu",
@@ -6075,9 +5959,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "forbidden jutsu",
               "reanimation",
@@ -6178,9 +6060,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "konoha",
               "founder",
@@ -6281,9 +6161,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "naruto",
               "ichiraku",
@@ -6384,9 +6262,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "hinata",
               "byakugan",
@@ -6487,9 +6363,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "tsunade",
               "summoning",
@@ -6590,9 +6464,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "akatsuki",
               "kakuzu",
@@ -6693,9 +6565,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sasuke",
               "summoning",
@@ -6796,9 +6666,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "hokage",
               "hiruzen",
@@ -6899,9 +6767,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "sasuke",
               "team taka",
@@ -7002,9 +6868,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "rasengan",
@@ -7105,9 +6969,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "village",
               "kirigakure",
@@ -7208,9 +7070,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "jutsu",
               "tobirama",
@@ -7311,9 +7171,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "rinnegan",
               "power",
@@ -7414,9 +7272,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "konan",
               "weapon",
@@ -7517,9 +7373,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "zabuza",
               "sword",
@@ -7620,9 +7474,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "uchiha",
               "mother",
@@ -7723,9 +7575,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "tailed beast",
               "yukimaru",
@@ -7826,9 +7676,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "shikamaru",
               "jutsu",
@@ -7929,9 +7777,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sakura",
               "tsunade",
@@ -8032,9 +7878,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "sharingan",
               "genjutsu",
@@ -8135,9 +7979,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "kabuto",
               "orochimaru",
@@ -8238,9 +8080,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasuke",
               "uchiha massacre",
@@ -8341,9 +8181,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "daimyo",
               "guardian ninja",
@@ -8444,9 +8282,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "temari",
               "weapon",
@@ -8547,9 +8383,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "akatsuki",
               "communication",
@@ -8650,9 +8484,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "hokage",
               "tobirama",
@@ -8753,9 +8585,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "choji",
               "jutsu",
@@ -8856,9 +8686,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "talk no jutsu",
@@ -8959,9 +8787,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "danzo",
               "root",
@@ -9062,9 +8888,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "tailed beast",
               "appearance",
@@ -9165,9 +8989,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "team guy",
               "sensei",
@@ -9268,9 +9090,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sealing jutsu",
               "jinchuriki",
@@ -9371,9 +9191,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "pain",
               "sacrifice",
@@ -9474,9 +9292,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "aburame",
               "kekkei genkai",
@@ -9577,9 +9393,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sasuke",
               "team 7",
@@ -9680,9 +9494,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "kakashi",
               "chidori",
@@ -9783,9 +9595,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "sasuke",
@@ -9887,9 +9697,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "tsunade",
               "medical ninjutsu",
@@ -9990,9 +9798,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "curse mark",
               "transformation",
@@ -10093,9 +9899,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "hokage",
               "hiruzen",
@@ -10196,9 +10000,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "eight gates",
               "might guy",
@@ -10299,9 +10101,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "karin",
               "sensory",
@@ -10402,9 +10202,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "tenten",
               "weapons",
@@ -10505,9 +10303,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sharingan",
               "eternal",
@@ -10608,9 +10404,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "itachi",
               "sasuke",
@@ -10711,9 +10505,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "choji",
               "jutsu",
@@ -10814,9 +10606,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "shino",
               "insects",
@@ -10917,9 +10707,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "minato",
               "jutsu",
@@ -11020,9 +10808,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "blind ninja",
               "ibiki",
@@ -11123,9 +10909,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "yagura",
               "tailed beast",
@@ -11226,9 +11010,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kiba",
               "akamaru",
@@ -11329,9 +11111,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "village",
               "kumogakure",
@@ -11432,9 +11212,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "jiraiya",
               "book",
@@ -11535,9 +11313,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "might guy",
               "madara",
@@ -11638,9 +11414,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "orochimaru",
               "jutsu",
@@ -11741,9 +11515,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "jugo",
               "curse mark",
@@ -11844,9 +11616,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "hashirama",
               "nickname",
@@ -11947,9 +11717,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasori",
               "puppets",
@@ -12050,9 +11818,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "tailed beast",
               "shukaku",
@@ -12153,9 +11919,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "shikamaru",
               "jutsu",
@@ -12256,9 +12020,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "naruto",
               "sage mode",
@@ -12359,9 +12121,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "raikage",
               "ay",
@@ -12462,9 +12222,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasuke",
               "itachi",
@@ -12565,9 +12323,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "seven ninja swordsmen",
               "water style",
@@ -12668,9 +12424,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "village",
               "iwagakure",
@@ -12771,9 +12525,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "akatsuki",
               "nagato",
@@ -12874,9 +12626,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kisame",
               "samehada",
@@ -12977,9 +12727,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "tailed beast",
               "han",
@@ -13080,9 +12828,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "ino",
               "jutsu",
@@ -13183,9 +12929,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "hokage",
               "kakashi",
@@ -13286,9 +13030,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "deidara",
               "clay",
@@ -13389,9 +13131,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "orochimaru",
               "summoning",
@@ -13492,9 +13232,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "hyuga",
               "hiashi",
@@ -13595,9 +13333,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "forbidden jutsu",
               "reaper death seal",
@@ -13698,9 +13434,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "temari",
               "weapons",
@@ -13801,9 +13535,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "obito",
               "kakashi",
@@ -13905,9 +13637,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "hidden rain",
               "nagato",
@@ -14008,9 +13738,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "seven ninja swordsmen",
               "kirigakure",
@@ -14111,9 +13839,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasori",
               "puppet",
@@ -14214,9 +13940,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "tailed beast",
               "matatabi",
@@ -14317,9 +14041,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "choji",
               "jutsu",
@@ -14420,9 +14142,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "madara",
               "ten-tails",
@@ -14523,9 +14243,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "eight gates",
               "origin",
@@ -14626,9 +14344,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kiba",
               "akamaru",
@@ -14729,9 +14445,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "barrier jutsu",
               "chakra",
@@ -14832,9 +14546,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "naruto",
               "tsunade",
@@ -14935,9 +14647,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasuke",
               "summoning",
@@ -15038,9 +14748,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kekkei genkai",
               "scorching release",
@@ -15141,9 +14849,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "chiyo",
               "poison",
@@ -15244,9 +14950,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "akatsuki",
               "naruto",
@@ -15347,9 +15051,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "sasuke",
               "danzo",
@@ -15450,9 +15152,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "konan",
               "jutsu",
@@ -15553,9 +15253,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "naruto",
               "jiraiya",
@@ -15657,9 +15355,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "yamato",
               "danzo",
@@ -15760,9 +15456,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "tailed beast",
               "saiken",
@@ -15863,9 +15557,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "karin",
               "healing",
@@ -15966,9 +15658,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "uchiha",
               "military police",
@@ -16069,9 +15759,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kazekage",
               "rasa",
@@ -16172,9 +15860,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sharingan",
               "susanoo",
@@ -16275,9 +15961,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "shikamaru",
               "jutsu",
@@ -16378,9 +16062,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "katsuyu",
               "healing",
@@ -16481,9 +16163,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "konoha",
               "founder",
@@ -16584,9 +16264,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "deidara",
               "explosive clay",
@@ -16687,9 +16365,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "konohamaru",
               "team ebisu",
@@ -16790,9 +16466,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "jinchuriki",
               "four-tails",
@@ -16893,9 +16567,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sword style",
               "hayate gekko",
@@ -16996,9 +16668,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "village",
               "kusagakure",
@@ -17099,9 +16769,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "pain",
               "naraka path",
@@ -17202,9 +16870,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "tsunade",
               "healing",
@@ -17305,9 +16971,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "sasuke",
@@ -17408,9 +17072,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "tenten",
               "weapons",
@@ -17511,9 +17173,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "rock lee",
               "jutsu",
@@ -17614,9 +17274,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "orochimaru",
               "sound village",
@@ -17717,9 +17375,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "jinchuriki",
               "seven-tails",
@@ -17820,9 +17476,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "ino",
               "jutsu",
@@ -17923,9 +17577,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sharingan",
               "susanoo",
@@ -18026,9 +17678,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "hanzo",
               "salamander",
@@ -18129,9 +17779,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "fourth great ninja war",
               "obito",
@@ -18232,9 +17880,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "kekkei tota",
               "onoki",
@@ -18335,9 +17981,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "sasuke",
               "final battle",
@@ -18438,9 +18082,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "jiraiya",
               "nagato",
@@ -18541,9 +18183,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "tailed beast",
               "gyuki",
@@ -18644,9 +18284,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "neji",
               "byakugan",
@@ -18747,9 +18385,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "genjutsu",
               "infinite tsukuyomi",
@@ -18850,9 +18486,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "raikage",
               "fourth great ninja war",
@@ -18953,9 +18587,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "sai",
               "jutsu",
@@ -19056,9 +18688,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "naruto",
               "sage mode",
@@ -19159,9 +18789,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "nagato",
               "yahiko",
@@ -19262,9 +18890,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "kimimaro",
               "bones",
@@ -19365,9 +18991,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "village",
               "takigakure",
@@ -19468,9 +19092,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "kaguya",
               "nature transformation",
@@ -19571,9 +19193,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "hidan",
               "jashin",
@@ -19674,9 +19294,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "kakashi",
               "lightning style",
@@ -19777,9 +19395,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "iruka",
               "academy",
@@ -19880,9 +19496,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "jinchuriki",
               "yugito",
@@ -19983,9 +19597,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "choji",
               "jutsu",
@@ -20086,9 +19698,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "forbidden jutsu",
               "reaper death seal",
@@ -20189,9 +19799,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "sound five",
               "kimimaro",
@@ -20292,9 +19900,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "akatsuki",
               "origin",
@@ -20395,9 +20001,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "akatsuchi",
               "weapon",
@@ -20498,9 +20102,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "village",
               "takigakure",
@@ -20601,9 +20203,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "obito",
               "madara",
@@ -20704,9 +20304,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "kakashi",
               "body flicker",
@@ -20807,9 +20405,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "sakura",
               "clone",
@@ -20910,9 +20506,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "team asuma",
               "sensei",
@@ -21013,9 +20607,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "tailed beast",
               "isobu",
@@ -21116,9 +20708,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "neji",
               "byakugan",
@@ -21219,9 +20809,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "samehada",
               "chakra absorption",
@@ -21322,9 +20910,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "kabuto",
               "orochimaru",
@@ -21425,9 +21011,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "d"
-            },
+            "correct_answer": "d",
             "tags": [
               "hokage",
               "ceremony",
@@ -21528,9 +21112,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "sakura",
               "taijutsu",
@@ -21631,9 +21213,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "byakugan",
               "visual jutsu",
@@ -21734,9 +21314,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "team 7",
               "jonin",
@@ -21837,9 +21415,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "akatsuki",
               "tailed beast",
@@ -21940,9 +21516,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "kurenai",
               "genjutsu",

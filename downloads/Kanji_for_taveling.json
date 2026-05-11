@@ -100,9 +100,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "restroom",
@@ -203,9 +201,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "restroom",
@@ -306,9 +302,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "train-station",
@@ -409,9 +403,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -511,9 +503,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "travel",
               "train-station"
@@ -613,9 +603,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "restaurant"
@@ -715,9 +703,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "restaurant"
@@ -817,9 +803,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "rules"
@@ -919,9 +903,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "restaurant"
@@ -1021,9 +1003,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "navigation",
@@ -1124,9 +1104,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "basics"
@@ -1226,9 +1204,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "basics"
@@ -1328,9 +1304,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "travel",
               "train-station"
@@ -1430,9 +1404,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "travel",
               "navigation"
@@ -1532,9 +1504,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "c"
-            },
+            "correct_answer": "c",
             "tags": [
               "travel",
               "rules"
@@ -1634,9 +1604,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "money"
@@ -1736,9 +1704,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "basics"
@@ -1838,9 +1804,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "train-station"
@@ -1940,9 +1904,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -2042,9 +2004,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -2144,9 +2104,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food",
@@ -2247,9 +2205,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food"
@@ -2349,9 +2305,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "train-station",
@@ -2452,9 +2406,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "train-station"
@@ -2554,9 +2506,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "money"
@@ -2656,9 +2606,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "money",
@@ -2759,9 +2707,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "health"
@@ -2861,9 +2807,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "safety"
@@ -2963,9 +2907,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "basics"
@@ -3065,9 +3007,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food"
@@ -3167,9 +3107,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "train-station"
@@ -3269,9 +3207,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -3371,9 +3307,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "calendar",
@@ -3474,9 +3408,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "calendar"
@@ -3576,9 +3508,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -3678,9 +3608,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -3780,9 +3708,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "a"
-            },
+            "correct_answer": "a",
             "tags": [
               "travel",
               "numbers"
@@ -3882,9 +3808,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "numbers"
@@ -3984,9 +3908,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "numbers"
@@ -4086,9 +4008,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "numbers"
@@ -4188,9 +4108,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food"
@@ -4290,9 +4208,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food",
@@ -4393,9 +4309,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation",
@@ -4496,9 +4410,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "money"
@@ -4598,9 +4510,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "money"
@@ -4700,9 +4610,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "rules",
@@ -4803,9 +4711,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "calendar"
@@ -4905,9 +4811,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "food"
@@ -5007,9 +4911,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "safety"
@@ -5109,9 +5011,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "basics"
@@ -5211,9 +5111,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
@@ -5313,9 +5211,7 @@
                 }
               }
             ],
-            "correct_answer": {
-              "value": "b"
-            },
+            "correct_answer": "b",
             "tags": [
               "travel",
               "navigation"
