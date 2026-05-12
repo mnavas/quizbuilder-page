@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivia de Naruto en Vivo · Naruto Live Trivia — QuizBuilder</title>
+  <meta name="description" content="Guía paso a paso para organizar un juego de trivia de Naruto en vivo con QuizBuilder. Step-by-step guide to run a Naruto live trivia game." />
+  <link rel="icon" type="image/png" href="../icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --amber:      #F5A623;
+      --amber-dark: #D4891A;
+      --amber-pale: #FEF3DC;
+      --orange:     #EA580C;
+      --orange-pale:#FFF7ED;
+      --gray-50:    #F9FAFB;
+      --gray-100:   #F3F4F6;
+      --gray-200:   #E5E7EB;
+      --gray-400:   #9CA3AF;
+      --gray-600:   #4B5563;
+      --gray-700:   #374151;
+      --gray-800:   #1F2937;
+      --gray-900:   #111827;
+      --white:      #FFFFFF;
+      --radius:     12px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--gray-800); background: var(--white); line-height: 1.6; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .nav-inner {
+      padding: 0 2rem; height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+    .nav-brand img { width: 30px; height: 30px; border-radius: 6px; }
+    .nav-brand span { font-size: 1.15rem; font-weight: 700; color: var(--amber); }
+    .nav-links { display: flex; align-items: center; gap: 2rem; }
+    .nav-links a { text-decoration: none; font-size: 0.875rem; font-weight: 500; color: var(--gray-600); transition: color 0.15s; }
+    .nav-links a:hover { color: var(--gray-900); }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 0.5rem 1.25rem; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: all 0.15s; }
+    .btn-primary { background: var(--amber); color: var(--white); }
+    .btn-primary:hover { background: var(--amber-dark); }
+    .nav-hamburger {
+      display: none; background: none; border: none; cursor: pointer;
+      padding: 6px; color: var(--gray-800);
+      flex-direction: column; gap: 5px; align-items: center; justify-content: center;
+    }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: currentColor; border-radius: 2px; transition: transform 0.2s, opacity 0.2s; }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-mobile { display: none; flex-direction: column; background: var(--white); border-top: 1px solid var(--gray-200); padding: 1rem 1.5rem 1.25rem; gap: 0; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile a { text-decoration: none; font-size: 0.95rem; font-weight: 500; color: var(--gray-700); padding: 0.7rem 0; border-bottom: 1px solid var(--gray-100); transition: color 0.15s; }
+    .nav-mobile a:last-of-type { border-bottom: none; }
+    .nav-mobile a:hover { color: var(--amber); }
+    .nav-mobile .btn { margin-top: 0.75rem; justify-content: center; width: 100%; }
+
+    /* ── LANGUAGE SWITCHER ── */
+    .lang-bar {
+      background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
+      padding: 0.6rem 2rem; display: flex; align-items: center; gap: 0.75rem;
+      font-size: 0.8rem; color: var(--gray-600);
+    }
+    .lang-btn {
+      background: none; border: 1.5px solid var(--gray-300);
+      border-radius: 6px; padding: 3px 12px; font-family: 'Inter', sans-serif;
+      font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.15s;
+      color: var(--gray-600);
+    }
+    .lang-btn.active { background: var(--amber); border-color: var(--amber); color: var(--white); }
+    .lang-btn:hover:not(.active) { border-color: var(--amber); color: var(--amber-dark); }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      background: linear-gradient(160deg, #FFF7ED 0%, var(--white) 65%);
+      padding: 4rem 2rem 3rem; text-align: center;
+      border-bottom: 1px solid var(--gray-100);
+    }
+    .article-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #FFF7ED; border: 1px solid #FED7AA;
+      color: var(--orange); font-size: 0.78rem; font-weight: 700;
+      padding: 4px 12px; border-radius: 999px; margin-bottom: 1.25rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .page-header h1 {
+      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      font-weight: 800; color: var(--gray-900); line-height: 1.2; margin-bottom: 1rem;
+    }
+    .page-header .subtitle {
+      font-size: 1.05rem; color: var(--gray-600); max-width: 560px; margin: 0 auto 1.5rem;
+    }
+    .header-meta {
+      display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;
+      font-size: 0.8rem; color: var(--gray-400);
+    }
+
+    /* ── DOWNLOAD BOX ── */
+    .download-hero {
+      background: var(--gray-900); border-radius: var(--radius);
+      padding: 2rem; margin: 2.5rem 0; text-align: center;
+    }
+    .download-hero .dh-icon { font-size: 3rem; margin-bottom: 0.75rem; }
+    .download-hero h3 { font-size: 1.1rem; font-weight: 800; color: var(--white); margin-bottom: 0.4rem; }
+    .download-hero p { font-size: 0.875rem; color: var(--gray-400); margin-bottom: 1.25rem; }
+    .download-hero .dh-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--amber); color: var(--white);
+      padding: 0.75rem 1.75rem; border-radius: 10px;
+      font-weight: 700; font-size: 0.95rem; text-decoration: none;
+      transition: background 0.15s;
+    }
+    .download-hero .dh-btn:hover { background: var(--amber-dark); }
+    .download-hero .dh-meta { font-size: 0.75rem; color: var(--gray-400); margin-top: 0.75rem; }
+
+    /* ── ARTICLE BODY ── */
+    .page-body { max-width: 780px; margin: 0 auto; padding: 3.5rem 2rem 6rem; }
+
+    /* ── STEPS ── */
+    .steps { display: flex; flex-direction: column; gap: 1.5rem; margin: 1.75rem 0; }
+    .step-card {
+      display: flex; gap: 1.25rem;
+      background: var(--gray-50); border: 1px solid var(--gray-200);
+      border-radius: var(--radius); padding: 1.5rem;
+    }
+    .step-num {
+      width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+      background: var(--amber); color: var(--white);
+      font-weight: 700; font-size: 0.8rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .step-body h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .step-body p { font-size: 0.9rem; color: var(--gray-600); line-height: 1.65; }
+    .step-body p + p { margin-top: 0.5rem; }
+    .step-body .note {
+      background: var(--amber-pale); border-left: 3px solid var(--amber);
+      border-radius: 0 8px 8px 0; padding: 0.75rem 1rem;
+      font-size: 0.85rem; color: var(--gray-700); margin-top: 0.75rem; line-height: 1.6;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section-label {
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 0.5rem;
+    }
+    h2 { font-size: clamp(1.3rem, 3vw, 1.75rem); font-weight: 800; color: var(--gray-900); line-height: 1.2; margin-bottom: 0.75rem; }
+    .lead { font-size: 0.975rem; color: var(--gray-600); line-height: 1.7; margin-bottom: 1.5rem; }
+
+    /* ── WHAT IS QB ── */
+    .qb-intro {
+      background: #0D1117; border-radius: var(--radius);
+      padding: 1.75rem 2rem; margin-bottom: 2rem; color: #E6EDF3;
+    }
+    .qb-intro h3 { font-size: 0.95rem; font-weight: 700; color: var(--amber); margin-bottom: 0.75rem; }
+    .qb-intro p { font-size: 0.875rem; line-height: 1.7; color: #C9D1D9; }
+    .qb-intro p + p { margin-top: 0.5rem; }
+
+    /* ── LIVE FLOW ── */
+    .live-flow {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem; margin: 1.5rem 0;
+    }
+    .live-flow-card {
+      background: var(--gray-900); border-radius: var(--radius);
+      padding: 1.1rem 0.75rem; text-align: center;
+    }
+    .live-flow-card .lf-icon { font-size: 1.5rem; margin-bottom: 0.4rem; }
+    .live-flow-card .lf-label { font-size: 0.7rem; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem; }
+    .live-flow-card .lf-desc { font-size: 0.72rem; color: var(--gray-400); line-height: 1.4; }
+
+    /* ── DIVIDER ── */
+    hr.section-divider { border: none; border-top: 1px solid var(--gray-200); margin: 3.5rem 0; }
+
+    /* ── CALLOUT ── */
+    .callout {
+      display: flex; gap: 0.75rem;
+      background: var(--amber-pale); border: 1px solid #F5A62340;
+      border-left: 3px solid var(--amber); border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 1rem 1.25rem; margin: 1.25rem 0;
+      font-size: 0.875rem; color: var(--gray-700); line-height: 1.6;
+    }
+    .callout-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--gray-900); padding: 3rem 2rem; text-align: center; }
+    footer .footer-brand { display: flex; align-items: center; gap: 10px; justify-content: center; margin-bottom: 1rem; }
+    footer .footer-brand img { width: 28px; height: 28px; border-radius: 6px; }
+    footer .footer-brand span { font-size: 1rem; font-weight: 700; color: var(--amber); }
+    footer p { font-size: 0.8rem; color: var(--gray-400); margin-top: 0.5rem; }
+    footer nav { margin-top: 1.5rem; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+    footer nav a { font-size: 0.8rem; color: var(--gray-400); text-decoration: none; }
+    footer nav a:hover { color: var(--white); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .nav-inner { padding: 0 1.25rem; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      .page-header { padding: 3rem 1.25rem 2rem; }
+      .page-body { padding: 2.5rem 1.25rem 4rem; }
+      .step-card { flex-direction: column; gap: 0.75rem; }
+      .live-flow { grid-template-columns: repeat(2, 1fr); }
+      .lang-bar { padding: 0.6rem 1.25rem; }
+    }
+    @media (max-width: 400px) {
+      .live-flow { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ── LANGUAGE VISIBILITY ── */
+    .lang-es, .lang-en { transition: opacity 0.2s; }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">
+      <img src="../icon.png" alt="QuizBuilder" />
+      <span>QuizBuilder</span>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">Features</a>
+      <a href="../pages/install.html">Install</a>
+      <a href="../pages/examples.html">Examples</a>
+      <a href="../pages/app.html">App</a>
+      <a href="../index.html#services">Services</a>
+      <a href="https://github.com/mnavas/quizbuilder" target="_blank" class="btn btn-primary">Get started</a>
+    </div>
+    <button class="nav-hamburger" id="nav-toggle" aria-label="Open menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="../index.html#features">Features</a>
+    <a href="../pages/install.html">Install</a>
+    <a href="../pages/examples.html">Examples</a>
+    <a href="../pages/app.html">App</a>
+    <a href="../index.html#services">Services</a>
+    <a href="https://github.com/mnavas/quizbuilder" target="_blank" class="btn btn-primary">Get started</a>
+  </div>
+</nav>
+
+<!-- ── LANGUAGE BAR ── -->
+<div class="lang-bar">
+  <span>🌐</span>
+  <button class="lang-btn active" id="btn-es" onclick="setLang('es')">Español</button>
+  <button class="lang-btn" id="btn-en" onclick="setLang('en')">English</button>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     SPANISH CONTENT
+══════════════════════════════════════════════════════ -->
+<div class="lang-es" id="content-es">
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <div class="article-badge">🍃 Juego en Vivo</div>
+    <h1>Trivia de Naruto en Vivo 🍥</h1>
+    <p class="subtitle">
+      213 preguntas de selección múltiple sobre personajes, jutsu, clanes y secretos del universo Naruto.
+      Gratis, sin instalar nada — tus amigos se unen desde el celular.
+    </p>
+    <div class="header-meta">
+      <span>⏱ 5 minutos para configurar</span>
+      <span>👥 Sin límite de jugadores</span>
+      <span>📱 Solo necesitan un navegador</span>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="page-body">
+
+    <!-- QUÉ ES QB -->
+    <div class="qb-intro">
+      <h3>¿Qué es QuizBuilder?</h3>
+      <p>
+        QuizBuilder es una plataforma de evaluaciones de código abierto que puedes instalar en tu propio servidor.
+        Entre sus funciones hay un <strong>modo de juego en vivo</strong>: el anfitrión proyecta las preguntas, los
+        jugadores responden desde su celular con un PIN o código QR, y el que responda bien más rápido gana más puntos.
+      </p>
+      <p>
+        No necesitas cuenta, no necesitas instalar ninguna app — solo un navegador web.
+      </p>
+    </div>
+
+    <!-- FLUJO -->
+    <div class="section-label">¿Cómo funciona?</div>
+    <div class="live-flow">
+      <div class="live-flow-card">
+        <div class="lf-icon">📋</div>
+        <div class="lf-label">Lobby</div>
+        <div class="lf-desc">Los jugadores entran con el PIN. El anfitrión ve los nombres en pantalla.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">❓</div>
+        <div class="lf-label">Pregunta</div>
+        <div class="lf-desc">La pregunta aparece en todos los celulares. Cuenta regresiva de 20 s.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏅</div>
+        <div class="lf-label">Resultados</div>
+        <div class="lf-desc">Se revela la respuesta correcta y el marcador parcial.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏆</div>
+        <div class="lf-label">Podio</div>
+        <div class="lf-desc">Marcador final y los tres primeros lugares.</div>
+      </div>
+    </div>
+
+    <!-- DESCARGA -->
+    <div class="download-hero">
+      <div class="dh-icon">📦</div>
+      <h3>Descarga el paquete de Naruto Trivia</h3>
+      <p>213 preguntas listas para importar. Un solo archivo JSON — gratis.</p>
+      <a href="../downloads/Naruto_Tribia.json" download="Naruto_Tribia.json" class="dh-btn">
+        ⬇ Descargar Naruto_Tribia.json
+      </a>
+      <p class="dh-meta">También disponible en <a href="https://github.com/mnavas/quizbuilder-page/tree/main/downloads" target="_blank" style="color:var(--amber);">GitHub → downloads/</a></p>
+    </div>
+
+    <!-- PASOS -->
+    <div class="section-label">Guía paso a paso</div>
+    <h2>Cómo organizar la trivia</h2>
+    <p class="lead">
+      Necesitas tener QuizBuilder instalado en tu servidor. Si todavía no lo tienes,
+      sigue la <a href="../pages/install.html" style="color:var(--amber-dark);font-weight:600;">guía de instalación</a> — tarda unos 5 minutos.
+    </p>
+
+    <div class="steps">
+
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Descarga el archivo JSON</h3>
+          <p>
+            Haz clic en el botón de descarga de arriba. Guarda el archivo
+            <code>Naruto_Tribia.json</code> en tu computadora.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Importa el test en QuizBuilder</h3>
+          <p>
+            Entra al panel de administración de tu servidor QuizBuilder. Ve a <strong>Tests</strong>
+            y haz clic en el botón <strong>↑ Import</strong> (o <em>Importar</em>).
+          </p>
+          <p>
+            Selecciona el archivo <code>Naruto_Tribia.json</code> y confirma.
+            El test se crea automáticamente con sus 213 preguntas — no necesitas configurar nada más.
+          </p>
+          <div class="note">
+            💡 El test se importa como borrador. No necesitas publicarlo para usarlo en un juego en vivo.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Lanza el juego en vivo</h3>
+          <p>
+            En la lista de Tests, busca <strong>"Naruto Trivia"</strong>, abre el menú
+            <strong>⋮ Acciones</strong> y selecciona <strong>🎮 Lanzar juego en vivo</strong>.
+          </p>
+          <p>
+            Se abrirá una pestaña nueva con el <strong>PIN de 6 dígitos</strong> y un código QR.
+            Proyecta esta pantalla o comparte el PIN con tus jugadores.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Los jugadores se unen</h3>
+          <p>
+            Cada jugador abre el navegador en su celular y entra a la dirección de tu servidor
+            seguida de <code>/live-join</code> — o simplemente escanea el QR.
+          </p>
+          <p>
+            Escriben su nombre y aparecen en el lobby del anfitrión de inmediato. No necesitan
+            cuenta, no necesitan instalar nada.
+          </p>
+          <div class="note">
+            💡 Si todos están en la misma red Wi-Fi, usa la IP local del servidor (ej. <code>http://192.168.1.x:3000/live-join</code>).
+            Si tu servidor tiene dominio público, comparte esa URL.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h3>Empieza el juego</h3>
+          <p>
+            Cuando todos estén listos, haz clic en <strong>Iniciar juego</strong>. La primera
+            pregunta aparece en todos los celulares al mismo tiempo con una cuenta regresiva de 20 segundos.
+          </p>
+          <p>
+            Los jugadores tocan su respuesta — cuanto más rápido respondan bien, más puntos ganan.
+            Después de cada pregunta haz clic en <strong>Cerrar pregunta</strong> para revelar la
+            respuesta y ver el marcador, luego <strong>Siguiente</strong> para continuar.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <h3>Resultados finales</h3>
+          <p>
+            Al terminar, haz clic en <strong>Ver resultados finales</strong>. Aparece el podio
+            con los tres primeros lugares y el marcador completo.
+          </p>
+          <p>¡El mejor fan de Naruto queda coronado! 🍥</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout">
+      <span class="callout-icon">⚡</span>
+      <span>
+        <strong>Puntaje por velocidad:</strong> responder bien al inicio del temporizador da casi el doble de puntos
+        que responder en el último momento. Incluso responder en el último segundo da la mitad de puntos — las respuestas
+        incorrectas siempre dan cero.
+      </span>
+    </div>
+
+  </div><!-- /page-body ES -->
+</div><!-- /lang-es -->
+
+
+<!-- ══════════════════════════════════════════════════════
+     ENGLISH CONTENT
+══════════════════════════════════════════════════════ -->
+<div class="lang-en" id="content-en" style="display:none;">
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <div class="article-badge">🍃 Live Game</div>
+    <h1>Naruto Trivia Live Game 🍥</h1>
+    <p class="subtitle">
+      213 multiple-choice questions about characters, jutsu, clans, and secrets of the Naruto universe.
+      Free, nothing to install — players join from their phones.
+    </p>
+    <div class="header-meta">
+      <span>⏱ 5 minutes to set up</span>
+      <span>👥 Unlimited players</span>
+      <span>📱 Browser only — no app needed</span>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="page-body">
+
+    <!-- WHAT IS QB -->
+    <div class="qb-intro">
+      <h3>What is QuizBuilder?</h3>
+      <p>
+        QuizBuilder is an open-source assessment platform you self-host on your own server.
+        One of its features is a <strong>live game mode</strong>: the host displays questions on a screen,
+        players answer from their phones using a PIN or QR code, and the fastest correct answer earns the most points.
+      </p>
+      <p>
+        No account needed, no app to install — just a web browser.
+      </p>
+    </div>
+
+    <!-- FLOW -->
+    <div class="section-label">How it works</div>
+    <div class="live-flow">
+      <div class="live-flow-card">
+        <div class="lf-icon">📋</div>
+        <div class="lf-label">Lobby</div>
+        <div class="lf-desc">Players enter with PIN or QR. Host sees names appear live.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">❓</div>
+        <div class="lf-label">Question</div>
+        <div class="lf-desc">Question appears on all phones. 20-second countdown.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏅</div>
+        <div class="lf-label">Results</div>
+        <div class="lf-desc">Correct answer revealed. Per-question leaderboard.</div>
+      </div>
+      <div class="live-flow-card">
+        <div class="lf-icon">🏆</div>
+        <div class="lf-label">Podium</div>
+        <div class="lf-desc">Final leaderboard and top three players.</div>
+      </div>
+    </div>
+
+    <!-- DOWNLOAD -->
+    <div class="download-hero">
+      <div class="dh-icon">📦</div>
+      <h3>Download the Naruto Trivia bundle</h3>
+      <p>213 ready-to-import questions. One JSON file — free.</p>
+      <a href="../downloads/Naruto_Tribia.json" download="Naruto_Tribia.json" class="dh-btn">
+        ⬇ Download Naruto_Tribia.json
+      </a>
+      <p class="dh-meta">Also available on <a href="https://github.com/mnavas/quizbuilder-page/tree/main/downloads" target="_blank" style="color:var(--amber);">GitHub → downloads/</a></p>
+    </div>
+
+    <!-- STEPS -->
+    <div class="section-label">Step-by-step guide</div>
+    <h2>How to run the trivia</h2>
+    <p class="lead">
+      You need QuizBuilder installed on your server. If you haven't done that yet,
+      follow the <a href="../pages/install.html" style="color:var(--amber-dark);font-weight:600;">installation guide</a> — it takes about 5 minutes.
+    </p>
+
+    <div class="steps">
+
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Download the JSON file</h3>
+          <p>
+            Click the download button above. Save the file
+            <code>Naruto_Tribia.json</code> to your computer.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Import the test into QuizBuilder</h3>
+          <p>
+            Log in to your QuizBuilder admin panel. Go to <strong>Tests</strong>
+            and click the <strong>↑ Import</strong> button.
+          </p>
+          <p>
+            Select <code>Naruto_Tribia.json</code> and confirm. The test is created
+            automatically with all 213 questions — no further configuration needed.
+          </p>
+          <div class="note">
+            💡 The test is imported as a draft. You don't need to publish it to use it in a live game.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Launch the live game</h3>
+          <p>
+            In the Tests list, find <strong>"Naruto Trivia"</strong>, open the
+            <strong>⋮ Actions</strong> menu, and click <strong>🎮 Launch Live Game</strong>.
+          </p>
+          <p>
+            A new tab opens showing a <strong>6-digit PIN</strong> and a QR code.
+            Display this on a projector or share the PIN with your players.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Players join</h3>
+          <p>
+            Each player opens a browser on their phone and navigates to your server address
+            followed by <code>/live-join</code> — or scans the QR code to skip PIN entry.
+          </p>
+          <p>
+            They type a nickname and immediately appear in the host lobby. No account, no app install.
+          </p>
+          <div class="note">
+            💡 If everyone is on the same Wi-Fi, use the server's local IP (e.g. <code>http://192.168.1.x:3000/live-join</code>).
+            If your server has a public domain, share that URL.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h3>Start the game</h3>
+          <p>
+            When everyone is in, click <strong>Start Game</strong>. The first question appears
+            on all phones simultaneously with a 20-second countdown.
+          </p>
+          <p>
+            Players tap their answer — faster correct answers earn more points.
+            After each question click <strong>Close Question</strong> to reveal the answer and
+            view the leaderboard, then <strong>Next</strong> to continue.
+          </p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <h3>Final results</h3>
+          <p>
+            After the last question, click <strong>Show Final Results</strong>. A podium screen
+            appears with the top three players and the full leaderboard.
+          </p>
+          <p>The ultimate Naruto fan is crowned! 🍥</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout">
+      <span class="callout-icon">⚡</span>
+      <span>
+        <strong>Speed scoring:</strong> answering correctly at the start of the timer earns nearly double the points
+        of answering at the last moment. Even answering in the final second earns half points — wrong answers always score zero.
+      </span>
+    </div>
+
+  </div><!-- /page-body EN -->
+</div><!-- /lang-en -->
+
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-brand">
+    <img src="../icon.png" alt="QuizBuilder" />
+    <span>QuizBuilder</span>
+  </div>
+  <p>Self-hosted online assessment platform</p>
+  <nav>
+    <a href="https://github.com/mnavas/quizbuilder">GitHub</a>
+    <a href="../pages/install.html">Install</a>
+    <a href="../pages/examples.html">Examples</a>
+    <a href="../pages/app.html">App</a>
+    <a href="../downloads/Naruto_Tribia.json" download>Download bundle</a>
+    <a href="https://github.com/mnavas/quizbuilder/issues">Issues</a>
+  </nav>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav-toggle').classList.toggle('open');
+  document.getElementById('nav-mobile').classList.toggle('open');
+}
+
+function setLang(lang) {
+  var es = document.getElementById('content-es');
+  var en = document.getElementById('content-en');
+  var btnEs = document.getElementById('btn-es');
+  var btnEn = document.getElementById('btn-en');
+  if (lang === 'es') {
+    es.style.display = '';
+    en.style.display = 'none';
+    btnEs.classList.add('active');
+    btnEn.classList.remove('active');
+    document.documentElement.lang = 'es';
+  } else {
+    es.style.display = 'none';
+    en.style.display = '';
+    btnEs.classList.remove('active');
+    btnEn.classList.add('active');
+    document.documentElement.lang = 'en';
+  }
+}
+</script>
+
+</body>
+</html>
