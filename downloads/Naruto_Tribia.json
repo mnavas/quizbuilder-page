@@ -4,7 +4,7 @@
     "title": "Naruto Trivia",
     "description": "Test your knowledge of the Naruto universe — characters, jutsu, clans, and more.",
     "time_limit_minutes": null,
-    "draw_count": null,
+    "draw_count": 5,
     "show_correct_answers": "at_end",
     "randomize_options": true,
     "blocks": [
