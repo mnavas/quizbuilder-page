@@ -754,7 +754,7 @@ python seed_audio.py \
               <li>For <code>multiple_choice</code>: set <code>options_json</code> to <code>["Option A", "Option B", ...]</code> and <code>correct_answer</code> to the exact text of the correct option.</li>
               <li>For <code>multiple_select</code>: set <code>options_json</code> to a list and <code>correct_answer</code> to a JSON array, e.g. <code>["A", "C"]</code>.</li>
               <li>For <code>true_false</code>: set <code>correct_answer</code> to the string <code>"true"</code> or <code>"false"</code> — never a boolean.</li>
-              <li>For <code>short_text</code> with auto-scoring: set <code>review_required: false</code> and <code>correct_answer</code> to the expected string.</li>
+              <li>For <code>short_text</code> with auto-scoring: set <code>review_required: false</code> and <code>correct_answer</code> to <code>{"text": "expected answer"}</code>.</li>
               <li>For <code>long_text</code> or <code>file_upload</code>: set <code>review_required: true</code> and <code>correct_answer: null</code>.</li>
               <li>Always set <code>context_json: null</code> — media must be added manually after import.</li>
               <li>Output only the JSON. No markdown fences, no explanation.</li>
@@ -867,7 +867,7 @@ python seed_audio.py \
 <span class="cm">// Short text — auto-scored (exact match, case-insensitive)</span>
 {
   <span class="ky">"type"</span>: <span class="st">"short_text"</span>, <span class="ky">"points"</span>: <span class="nu">1</span>, <span class="ky">"review_required"</span>: <span class="vl">false</span>,
-  <span class="ky">"options_json"</span>: <span class="vl">null</span>, <span class="ky">"correct_answer"</span>: <span class="st">"necessary"</span>
+  <span class="ky">"options_json"</span>: <span class="vl">null</span>, <span class="ky">"correct_answer"</span>: { <span class="ky">"text"</span>: <span class="st">"necessary"</span> }
 }
 
 <span class="cm">// Essay — manual review required</span>
@@ -1024,14 +1024,14 @@ QUESTION TYPES — FULL REFERENCE
    "type": "short_text"
    "review_required": false
    "options_json": null
-   "correct_answer": "expected word"
+   "correct_answer": {"text": "expected word"}   ← must be an object with a "text" key
 
    Example:
    {
      "type": "short_text", "points": 1, "review_required": false,
      "prompt_json": { "type":"doc","content":[{"type":"paragraph","content":[{"type":"text","text":"Type the word you hear."}]}] },
      "options_json": null,
-     "correct_answer": "necessary"
+     "correct_answer": {"text": "necessary"}
    }
 
 ──────────────────────────────────────────
@@ -1063,7 +1063,7 @@ RULES — READ CAREFULLY
 - For multiple_choice: correct_answer must be the exact string from options_json.
 - For multiple_select: correct_answer must be a JSON array: ["A", "B"]
 - For true_false: correct_answer is the string "true" or "false", never a boolean.
-- For short_text auto-scoring: review_required must be false and correct_answer must be a string.
+- For short_text auto-scoring: review_required must be false and correct_answer must be {"text": "expected answer"}.
 - For long_text: review_required must be true and correct_answer must be null.
 - context_json is always null — never generate media references.
 
